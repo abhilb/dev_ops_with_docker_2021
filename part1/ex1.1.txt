@@ -1,0 +1,4 @@
+CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS                     PORTS               NAMES
+411001a5758b        jupyterhub/jupyterhub   "jupyterhub"             4 minutes ago       Up 4 minutes               8000/tcp            goofy_burnell
+8eea343c9c4a        nginx                   "/docker-entrypoint.…"   6 minutes ago       Exited (0) 4 minutes ago                       stupefied_cori
+f665daea8a07        jupyterhub/jupyterhub   "jupyterhub"             6 minutes ago       Up 6 minutes               8000/tcp            compassionate_tereshkova
