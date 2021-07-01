@@ -1,0 +1,11 @@
+PS C:\dev\dev_ops_with_docker_2021\part1\1.7> docker run -p 3000:8080 web-server
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:   export GIN_MODE=release
+ - using code:  gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2021/06/26 - 22:04:31 | 200 |       176.8µs |      172.17.0.1 | GET      "/"
+[GIN] 2021/06/26 - 22:04:33 | 200 |        94.6µs |      172.17.0.1 | GET      "/favicon.ico"
