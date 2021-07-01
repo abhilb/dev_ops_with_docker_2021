@@ -1,0 +1,9 @@
+PS C:\dev\dev_ops_with_docker_2021\part1\1.9> docker run -d -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+4fc22413f088934d5e3d03ee2b98247f2ee5874c7102474cd72a5fc944738adc
+
+PS C:\dev\dev_ops_with_docker_2021\part1\1.9> Get-Content -Path ".\text.log" -Wait
+2021-07-01 19:15:17 +0000 UTC
+2021-07-01 19:15:19 +0000 UTC
+2021-07-01 19:15:21 +0000 UTC
+2021-07-01 19:15:23 +0000 UTC
+2021-07-01 19:15:25 +0000 UTC
