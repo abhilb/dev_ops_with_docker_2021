@@ -1,2 +1,0 @@
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
